@@ -1,0 +1,17 @@
+- Como instalar jest --> basico
+- Como hacer jest de una función simple
+- useo de describe() y de it() 
+
+
+
+- Blocks : Good
+- Expect: expec	t(value).matcher (e.g. toBe, toEqual, toThrow...)
+- Hooks : beforeALl, beforeEach, afterEach, afterAll
+- Mocks: jest.fn(), jest.mock(), jest.spyOn(obj, 'method').
+
+
+beforeEach(() => {
+	jest.clearAllMocks()
+});
+
+
